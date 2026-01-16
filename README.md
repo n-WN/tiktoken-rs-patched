@@ -73,7 +73,7 @@ println!("max_tokens: {}", max_tokens);
 
 Need to enable the `async-openai` feature in your `Cargo.toml` file.
 
-```rust
+```rust,ignore
 use tiktoken_rs::async_openai::get_chat_completion_max_tokens;
 use async_openai::types::{ChatCompletionRequestMessage, Role};
 
